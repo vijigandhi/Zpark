@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color:  #393053 ;
+  overflow: hidden;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.image img {
+  display: flex;
+  height: 400px;
+  width: 246px;
+  padding: 16px;
+  padding-left: 2px;
+  position: relative;
+  right: 185px;
+  top: 89px;
+  border-radius: 40px;
+}
+ul{
+  display: flex;
+  font-weight: 400%;
+  color: darklavender;
+}
+#zpark{
+  font-size: 24px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    color:#18122B;
+    background-color:white;
+    font-size: 17px;
+    font-family: "Varela Round";
+}
+.home::after {
+  content : "";
+  width : 0;
+  height : 4px;
+  background-color: #77037B;
+  position : absolute;
+  left : 0;
+  bottom : -4px;
+  transition : 0.5s;
+}
+.home:hover:after{
+  width: 100%;
+}
+
+.navlist a{
+  position:relative;
+}
+
+.navlist a ::after{ 
+  position: absolute;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: "Varela Round";
+  color: white;
+  display: block;
+  position: relative;
+  top: 149px;
+  left: 149px;
+
+}
+span{
+    font-family: "Varela Round" ;
+    font-size: 41px;
+    background: -webkit-linear-gradient(rgb(181, 255, 211),
+    rgb(209, 164, 255),  rgb(255, 165, 175) ,  rgb(255, 220, 164) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+  ul.navlist {
+    gap: 46px;
+    padding: 0;
+    margin: 19px;
+   
+  }
+  li{
+    list-style: none;
+    font-weight: bolder;
+  }
+  #logo{
+    font-size: 30px;
+  }
+  .text{
+    display: flex;
+  }
+  .para p {
+    color: white;
+    font-family: "Varela Round";
+    position: relative;
+    top: 153px;
+    right: 260px;
+    margin-inline-start: 412px;
+    margin-inline-end: 10px;
+    font-size: 20px;
+    line-height: 32px;
+}
+button {
+  width: 153px;
+  height: 55px;
+  color: #393053;
+  font-family: "Varela Round";
+  border-radius: 10px;
+  border: none;
+  font-size: 19px;
+}
+
+.button {
+  position: relative;
+  right: -222px;
+  left: 152px;
+}
+button:hover{
+  background-color: #77037B ;
+  color: white;
+  transition: .2s;
+  transform: translateY(-2px);
+}
